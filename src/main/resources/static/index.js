@@ -152,7 +152,8 @@ function klarererForm(){
 
 //Funksjon som fjerner billettene i fra billettRegister Arrayet
 function slettAlleBilletter(){
-    billettRegister = []; //Tømmer arrayer
-    visBillettTabell(); //Viser tabellen på nytt, skal vise en tom tabell
-    console.log("Tabell slettet"); //viser log for å sjekke om arrayet faktisk ble tømt
+    $.get("/slettAlle", function (){
+        visBillettTabell(); //Viser tabellen på nytt, skal vise en tom tabell
+        console.log("Tabell slettet"); //viser log for å sjekke om arrayet faktisk ble tømt
+    });
 }

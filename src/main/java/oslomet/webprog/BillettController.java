@@ -24,6 +24,6 @@ public class BillettController {
 
     @GetMapping("/slettAlle")
     public void slettAlle(){
-        billettRegister.clear();
+        billettRegister.clear(); //Tømmer arrayet
     }
 }
