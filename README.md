@@ -1,3 +1,3 @@
 # Oblig2v24webprog
 
-borte
+Neida er ikke borte
