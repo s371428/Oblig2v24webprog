@@ -17,7 +17,8 @@ public class Billett {
         this.epost = epost;
     }
 
-    public Billett(){ }
+
+    //public Billett(){ } //sjekk etterhvert om du trenger denne
 
     public String getFilm() {
         return film;
