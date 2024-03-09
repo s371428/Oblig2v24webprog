@@ -1,5 +1,5 @@
 //Oppretter et Array for å lagre billetter
-let billettRegister = [];
+//let billettRegister = [];
 
 //Funksjon for å validere valgt film
 function valideringSjekkFilm(film){
@@ -93,7 +93,7 @@ function valideringSjekkEpost(epost){
 
 
 //funksjon for å vise billettregister
-function visBillettRegister(){
+function BillettRegister(){
 
     const film = $("#velg").val();
     const antall = $("#antall").val();
@@ -119,20 +119,30 @@ function visBillettRegister(){
         epost : epost
     };
 
-    billettRegister.push(nyBillett); //Legger til billetten i arrayet
-    visBillettTabell(); //Funksjon som viser billett teballen
+    $.post("/lagre", nyBillett, function (){
+        hentAlle();
+    });
+
+    //billettRegister.push(nyBillett); //Legger til billetten i arrayet
+
     klarererForm(); //Resetter og klarerer utfyllingene for neste billett
 }
 
+function hentAlle(){
+    $.get("/hentAlle", function (data){
+        visBillettTabell(data); //Funksjon som viser billett tabellen
+    });
+}
+
 //Funksjon som viser billett tabellen og tillegg til registrerte billetter
-function visBillettTabell(){
+function visBillettTabell(billetter){
     let utskriftAvBillett = "<table style='text-align: center'><tr>" +
         "<th><h3>Film</h3></th><th><h3>Antall</h3></th><th><h3>Fornavn</h3></th><th><h3>Etternavn</h3></th><th><h3>Telefonnr</h3></th><th><h3>Epost</h3></th>" +
         "</tr>";
 
-    for(let i = 0; i < billettRegister.length; i++){
+    for(const nyBillett of billetter){
         utskriftAvBillett+="<tr>";
-        utskriftAvBillett+="<td>"+billettRegister[i].film+"</td><td>"+billettRegister[i].antall+"</td><td>"+billettRegister[i].fornavn+"</td><td>"+billettRegister[i].etternavn+"</td><td>"+billettRegister[i].telefonnr+"</td><td>"+billettRegister[i].epost+"</td>";
+        utskriftAvBillett+="<td>"+nyBillett.film+"</td><td>"+nyBillett.antall+"</td><td>"+nyBillett.fornavn+"</td><td>"+nyBillett.etternavn+"</td><td>"+nyBillett.telefonnr+"</td><td>"+nyBillett.epost+"</td>";
         utskriftAvBillett+="</tr>";
     }
     utskriftAvBillett+="<table>";
@@ -153,7 +163,7 @@ function klarererForm(){
 //Funksjon som fjerner billettene i fra billettRegister Arrayet
 function slettAlleBilletter(){
     $.get("/slettAlle", function (){
-        visBillettTabell(); //Viser tabellen på nytt, skal vise en tom tabell
+        visBillettTabell([]); //Viser tabellen på nytt, skal vise en tom tabell
         console.log("Tabell slettet"); //viser log for å sjekke om arrayet faktisk ble tømt
     });
 }
