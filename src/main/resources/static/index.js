@@ -136,7 +136,7 @@ function hentAlle(){
 
 //Funksjon som viser billett tabellen og tillegg til registrerte billetter
 function visBillettTabell(billetter){
-    let utskriftAvBillett = "<table style='text-align: center'><tr>" +
+    let utskriftAvBillett = "<table class='table table-striped' style='text-align: center'><tr>" +
         "<th><h3>Film</h3></th><th><h3>Antall</h3></th><th><h3>Fornavn</h3></th><th><h3>Etternavn</h3></th><th><h3>Telefonnr</h3></th><th><h3>Epost</h3></th>" +
         "</tr>";
 
