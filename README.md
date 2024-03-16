@@ -17,7 +17,7 @@ Beskrivelse fra oblig 2: Lagt til funksjonalitet som Lagrer billetter inne i et 
 Screenshots av prosjektet
 
 Screenshot av at Spring Boot server kjører:
-<img width="1035" alt="SpringBoot1" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/2de54fe5-f7fc-477a-8ea2-2d532bcc47e6">
+<img width="1035" alt="SpringBoot1" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/2de54fe5-f7fc-477a-8ea2-2d532bcc47e6"></br>
 
 Screenshot av klient:
 <img width="669" alt="Prosjekt" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/65f9a1bd-f160-4acd-abf3-be47f229cf6d">
