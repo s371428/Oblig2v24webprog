@@ -18,3 +18,6 @@ Screenshots av prosjektet
 
 Screenshot av at Spring Boot server kjører:
 <img width="1035" alt="SpringBoot1" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/2de54fe5-f7fc-477a-8ea2-2d532bcc47e6">
+
+Screenshot av klient:
+
