@@ -23,4 +23,6 @@ Screenshot av at Spring Boot server kjører:
 Screenshot av klient:
 <br><br>
 <img width="669" alt="Prosjekt" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/65f9a1bd-f160-4acd-abf3-be47f229cf6d">
+<br><br>
+<img width="1115" alt="testavprosjekt" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/7410319e-fcdd-402a-b7ff-99f7b9e62316">
 
