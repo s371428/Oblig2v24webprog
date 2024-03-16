@@ -14,6 +14,7 @@ Beskrivesle fra oblig 1: Applikasjon som registrerer billetter. Flere input felt
 
 Beskrivelse fra oblig 2: Lagt til funksjonalitet som Lagrer billetter inne i et array inne på en server ved bruk av Springboot og Java. Prosjektet har en Billett java kode for opprettelse av disse billett objektene. BillettController er også lagt til med funksjonaliteter som lagrer, henter og sletter billett objektene. HTML er stylet med Bootstrap, slik at det blir mer brukervennlig å benytte klienten.
 
+Screenshots av prosjektet
 
 Screenshot av at Spring Boot server kjører:
-<img width="835" alt="SpringBoot" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/331e3f0d-97c3-4f8b-abc1-b03231300194">
+<img width="1035" alt="SpringBoot1" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/2de54fe5-f7fc-477a-8ea2-2d532bcc47e6">
