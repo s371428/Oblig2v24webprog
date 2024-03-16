@@ -29,5 +29,18 @@ Screenshot av klient:
 
 Screenshot av requests og diverse:
 <br><br>
+<img width="521" alt="HentAllemetode" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/8b59c9e8-74ad-4e93-ae46-42c84af2a5fe">
+<br><br>
+<img width="522" alt="HentAlleArray" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/8f200fed-4f30-4839-9d49-8670c0f5f0d1">
+<br><br>
+<img width="520" alt="HeadersLagre" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/42164511-53e6-4ab1-b18f-c86aa8a19830">
+<br><br>
+<img width="523" alt="PayloadLagre" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/9c5685ff-c632-4cb9-981c-afefed1d9b5b">
+<br><br>
+
+
+Slette funksjon:
+<br><br>
+<img width="1119" alt="Tabellslettet" src="https://github.com/s371428/Oblig2v24webprog/assets/143275500/04501f7b-6464-4475-a4e6-9eeac034b601">
 
 
